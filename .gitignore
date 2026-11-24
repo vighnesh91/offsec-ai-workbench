@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables & secrets (Critical for API keys and targets)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Research outputs, logs, and target data
+logs/
+reports/
+loot/
+workspaces/
+*.pcap
+*.sqlite3
+*.db
+
+# IDE / Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
